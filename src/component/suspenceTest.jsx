@@ -3,7 +3,9 @@ import { Component } from "react";
 class suspenceTest extends Component{
     render(){
         return (
-            <input typeof='button'>test button</input>
+            <div>
+                <button>test button</button>
+            </div>
         )
     }
 }
