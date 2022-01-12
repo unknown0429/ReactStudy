@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './component/App';
 import reportWebVitals from './reportWebVitals';
-import Game from './component/Game'
 // import suspenceTest from './component/suspenceTest'
 // import functionTestComponent from './component/functionTestComponent';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Game/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

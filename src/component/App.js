@@ -1,11 +1,13 @@
-import './App.js';
+import Game from './tutorial/Game'
+import Moc from './bootstrapTest/moc'
 
 function App() {
   return (
-    <div className="App">
-      <h1>これから始まるsuspence</h1>
-    </div>
+    <>
+      <Moc/>
+      <Game/>
+    </>
   );
 }
 
-export default App;
+export default App
